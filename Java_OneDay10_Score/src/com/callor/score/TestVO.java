@@ -2,20 +2,21 @@ package com.callor.score;
 
 public class TestVO {
 
-	private Integer nums;
+	private Integer stu;
 	private String kors;
 	private String engs;
 	private String maths;
 	private String scis;
 	private String hiss;
 	private Integer sum;
-	private Integer flo;
+	private Float flo;
 	
-	public Integer getNums() {
-		return nums;
+
+	public Integer getStu() {
+		return stu;
 	}
-	public void setNums(Integer nums) {
-		this.nums = nums;
+	public void setStu(Integer stu) {
+		this.stu = stu;
 	}
 	public String getKors() {
 		return kors;
@@ -53,11 +54,11 @@ public class TestVO {
 	public void setSum(Integer sum) {
 		this.sum = sum;
 	}
-	public Integer getFlo() {
+	public Float getFlo() {
 		return flo;
 	}
-	public void setFlo(Integer flo) {
+	public void setFlo(Float flo) {
 		this.flo = flo;
-	}
+	}	
 	
 }
