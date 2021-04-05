@@ -102,16 +102,13 @@ public class TestService1 {
 		Integer intMaths = 0;
 		Integer intScis = 0;
 		Integer intHiss = 0;
-		int intStu = 0;
+		
 		int intSum = 0;
 		float floatAvg = 0.0f;
-		
-		intStu++;
-		
+			
 		while(true) {
 			System.out.println("-".repeat(60));
-			System.out.print(intStu + "번 학생의 성적을 입력하세요");
-			
+			System.out.print(strStu + "번 학생의 성적을 입력하세요");			
 			System.out.println("(성적범위 : 0 ~ 100, 입력을중단하려면 QUIT)");
 			System.out.println("=".repeat(60));
 			System.out.print("국어 >> ");
@@ -127,6 +124,7 @@ public class TestService1 {
 			if(strKors.equals("QUIT")) {
 				System.out.println("- 입력을 중단하고 메인메뉴로 돌아갑니다 -");
 				return;
+				
 			}
 			//Integer intkors = null;
 			try {
